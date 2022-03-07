@@ -1,0 +1,1 @@
+Find the missing number in the sequence that is increasing by one.

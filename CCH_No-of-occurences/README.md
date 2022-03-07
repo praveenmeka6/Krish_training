@@ -1,0 +1,1 @@
+Find the occurences of each letter in a word given by user
