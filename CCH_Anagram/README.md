@@ -1,0 +1,1 @@
+check the two words given by user whether it is angram word or not.
