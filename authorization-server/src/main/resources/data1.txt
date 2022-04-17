@@ -1,0 +1,13 @@
+INSERT INTO role (NAME) VALUES
+		('ROLE_editor');
+		
+INSERT INTO PERMISSION_ROLE (PERMISSION_ID, ROLE_ID) VALUES
+ 	(2,2),  /* read operator */
+    (3,2);  /* update operator */
+    
+    
+ insert into  user (id, username,password, email, enabled, accountNonExpired, credentialsNonExpired, accountNonLocked) VALUES ('3', 'roy', '{bcrypt}$2a$10$miviinkK8q0NXKgQ5Qbx..N/bsV5engIbVeDeuwtrDxnpq0i8nnuy','roy@jason.com', '1', '1', '1', '1');
+ 
+ INSERT INTO ROLE_USER (ROLE_ID, USER_ID)
+    VALUES
+    (3, 3);
